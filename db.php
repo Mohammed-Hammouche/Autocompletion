@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "autocompletion";
 $username = "root";
-$password = "1020";
+$password = "";
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
